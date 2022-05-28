@@ -1,0 +1,97 @@
+body {
+  width: 95%;
+  background-color: #EFEAD8;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 8px;
+  border-color: #D0C9C0;
+  width: 8%;
+}
+
+h1 {
+  font-family: 'The Nautigal', cursive;
+  font-size: 45px;
+  color: #5F7161;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  color: #5F7161;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  color: #5F7161;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
+.education {
+  font-size: 12px;
+  font-style: italic;
+}
+
+.headshot {
+  filter: drop-shadow(4px 4px 4px #5F7161);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.right {
+  text-align: center;
+}
+
+.tables {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+
+.row {
+  display: -ms-flexbox;
+  /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap;
+  /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%;
+  /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead
+of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
